@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "購入検討メモ",
+    "version": "1.0",
+    "description": "欲しいものの名前と時期を記録する拡張機能",
+    "permissions": [
+        "storage"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
