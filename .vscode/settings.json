@@ -1,0 +1,10 @@
+{
+  "editor.tabSize": 2,
+  "html.format.wrapLineLength": 80,
+  "html.format.wrapAttributes": "auto",
+  "html.format.extraLiners": "head, body, /html",
+  "html.format.indentInnerHtml": true,
+  "html.format.preserveNewLines": true,
+  "html.format.maxPreserveNewLines": 1,
+  "editor.defaultFormatter": "vscode.html-language-features"
+}

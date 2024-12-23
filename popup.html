@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <style>
-    body {
-      width: 300px;
-      padding: 10px;
-    }
-    .item {
-      margin: 10px 0;
-      padding: 5px;
-      border: 1px solid #ccc;
-    }
-  </style>
-</head>
-<body>
-  <h2>購入検討メモ</h2>
-  <div>
-    <input type="text" id="itemName" placeholder="アイテム名">
-    <input type="date" id="dateNeeded">
-    <button id="addItem">追加</button>
-  </div>
-  <div id="itemList"></div>
-  <script src="popup.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      body {
+        width: 300px;
+        padding: 10px;
+      }
+      .items {
+        margin: 10px 0;
+        padding: 5px;
+        border: 1px solid #ccc;
+        list-style: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>購入検討メモ</h2>
+    <div>
+      <input type="text" id="itemName" placeholder="アイテム名" />
+      <input type="date" id="dateNeeded" />
+      <button id="addItem">追加</button>
+    </div>
+    <div id="itemList"></div>
+    <script src="popup.js"></script>
+  </body>
 </html>
